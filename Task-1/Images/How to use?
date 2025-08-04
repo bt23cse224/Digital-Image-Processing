@@ -1,0 +1,6 @@
+Instructions For Use
+1. Download both the folders (Codes and Images).
+2. After donwloading,keep contents of both the folders in a single folder (to avoid change source and destination path in code).
+3. Original image is present in the 'Images' folder with the name 'primary-image.jpg'.
+4. Output images received after running the codes are also present in the 'Images' folder.
+5. Note that every code saves the newly created image (here,running the code again will update the provided output image).
