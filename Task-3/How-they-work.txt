@@ -1,0 +1,11 @@
+SHANNON-FANO CODING
+-Count how often each character appears.
+-Sort characters by frequency (descending).
+-Keep splitting the list into two parts so their total frequencies are as close as possible.
+-Assign '0' to one part and '1' to the another.
+
+HUFFMAN CODING
+-Count character frequencies.
+-Build a binary tree by combining the two least frequent characters repeatedly.
+-Traverse the tree: left = '0', right = '1'.
+-Each character’s path from root to leaf becomes its code.
