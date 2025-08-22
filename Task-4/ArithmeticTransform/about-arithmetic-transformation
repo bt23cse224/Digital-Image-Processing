@@ -1,0 +1,3 @@
+Arithmetic transformations in image processing involve applying basic arithmetic operations — such as addition, subtraction, multiplication, and division — directly to pixel values in an image.
+What does the code do?
+It applies arithmetic transformations to an image to demonstrate how manipulating pixel values directly using scalar addition and subtraction can affect brightness and how scalar multiplication and division can help in adjusting the contrast.
