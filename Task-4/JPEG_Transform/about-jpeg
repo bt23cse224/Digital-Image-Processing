@@ -1,0 +1,6 @@
+JPEG transformation refers to the process of compressing and decompressing an image using the JPEG (Joint Photographic Experts Group) standard, which is one of the most widely used methods for lossy image compression.
+What does the code do?
+Compressing the image into JPEG using OpenCV’s internal JPEG encoder.
+Decompressing it immediately to simulate the image after being saved or transmitted in JPEG format.
+Displaying both original and transformed images to show the quality degradation caused by JPEG compression.
+Note:This demonstrates the lossy nature of JPEG — where some visual information is permanently discarded to reduce file size, especially at low quality settings.
