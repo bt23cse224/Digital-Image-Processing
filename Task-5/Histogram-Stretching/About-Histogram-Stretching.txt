@@ -1,0 +1,5 @@
+Histogram Specification (Histogram Matching): This method transforms the source image so its histogram matches that of a reference image.
+
+Effect: Alters both brightness and contrast to mimic the visual tone of another image.
+
+How: Uses cumulative distribution functions (CDFs) to create a pixel intensity mapping from source to reference.
