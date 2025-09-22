@@ -1,0 +1,5 @@
+Histogram Sliding (Brightness Adjustment): This method shifts all pixel intensity values by a fixed amount, either increasing or decreasing brightness.
+
+Effect: Makes the image lighter or darker without changing contrast.
+
+How: Adds or subtracts a constant value to each pixel, clipping values to stay within 0–255.
