@@ -1,0 +1,5 @@
+Histogram Stretching (Contrast Enhancement): Also known as contrast stretching, this technique expands the range of pixel intensities to span the full 0–255 scale.
+
+Effect: Enhances contrast by making dark areas darker and bright areas brighter.
+
+How: Linearly maps the minimum and maximum pixel values in the image to 0 and 255, respectively.
