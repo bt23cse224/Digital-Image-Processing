@@ -1,0 +1,24 @@
+What is KNN (k-Nearest Neighbors)?
+
+K-Nearest Neighbors (KNN) is a simple and intuitive supervised machine learning algorithm used for classification and regression tasks.
+It is based on the idea that similar data points exist close to each other in feature space.
+
+How KNN Works
+
+Training Phase:
+
+It simply stores all the training data and their labels.
+
+Prediction Phase:
+
+When a new (unknown) sample is given, KNN calculates the distance (commonly Euclidean) between this sample and all points in the training data.
+
+It then finds the k nearest neighbors (the k samples with the smallest distances).
+
+The new sample is assigned the most common class among those k neighbors (majority voting).
+
+Key Parameter — k:
+
+A small k makes the model sensitive to noise.
+
+A large k makes the model smoother but can blur class boundaries.

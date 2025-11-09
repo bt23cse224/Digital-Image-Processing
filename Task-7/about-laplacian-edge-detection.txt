@@ -1,0 +1,13 @@
+Laplacian Edge Detection
+
+What is Laplacian:
+Laplacian edge detection is a second-order derivative method that detects edges by identifying areas where intensity changes rapidly in all directions.
+
+How it works:
+
+Apply the Laplacian operator using kernel to measure rapid intensity changes.
+
+Regions with sharp changes represent edges or boundaries.
+
+Example:
+When applied to an image of coins, the circular outlines of each coin become clearly visible.
