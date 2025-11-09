@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage import data
-import pywt  # make sure PyWavelets is installed
+import pywt
 
 # 1. Load grayscale image
 img = data.coins()             
@@ -45,3 +45,4 @@ for i in range(6):
 
 plt.tight_layout()
 plt.show()
+
