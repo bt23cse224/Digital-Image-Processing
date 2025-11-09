@@ -1,0 +1,31 @@
+Edge Detection Using DWT (Discrete Wavelet Transform)
+
+Edge Detection is the process of identifying boundaries between regions in an image where intensity changes sharply. Edges often correspond to object boundaries, texture changes, or important structural details.
+
+Using DWT for Edge Detection:
+
+Discrete Wavelet Transform (DWT):
+
+DWT decomposes an image into different frequency components at multiple scales (resolutions).
+
+It produces sub-bands:
+
+LL (approximation): Low-frequency content (smooth regions)
+
+LH (horizontal edges), HL (vertical edges), HH (diagonal edges)
+
+Edge Detection Process:
+
+Apply DWT to the input image to obtain the sub-bands.
+
+The LH, HL, and HH sub-bands highlight intensity changes in horizontal, vertical, and diagonal directions, respectively.
+
+Combine or threshold these high-frequency sub-bands to create an edge map.
+
+Advantages:
+
+Multi-resolution analysis: detects edges at different scales.
+
+Better noise resilience compared to simple gradient-based methods.
+
+Can capture subtle texture and structural details.

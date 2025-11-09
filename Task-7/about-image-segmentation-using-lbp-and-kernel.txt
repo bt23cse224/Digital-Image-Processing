@@ -1,0 +1,25 @@
+Image Segmentation Using LBP and Kernel Filtering
+
+Image Segmentation is the process of dividing an image into meaningful regions, such as separating objects from the background, or highlighting areas with similar texture or intensity. The goal is to simplify or analyze an image by grouping pixels with similar properties.
+
+Using LBP (Local Binary Pattern) and Kernel Filtering:
+
+Local Binary Pattern (LBP):
+
+LBP is a texture descriptor that encodes the local structure around each pixel by comparing it with its neighbors.
+
+It generates a new image where pixel values represent texture patterns.
+
+This helps in distinguishing regions with different textures.
+
+Kernel Filtering:
+
+A kernel (like a 3×3 averaging filter) is applied to the LBP image to smooth or emphasize local features.
+
+This highlights uniform regions and reduces noise, making boundaries between textures more distinct.
+
+Segmentation Mask:
+
+After filtering, thresholding is applied to the processed image to separate regions of interest from the background.
+
+Pixels above a certain value are marked as one region, and the rest as another, producing a binary mask representing segmented areas.
