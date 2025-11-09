@@ -1,0 +1,15 @@
+Sobel Edge Detection
+
+What is Sobel:
+Sobel edge detection is a first-order derivative method that detects edges by measuring the gradient (rate of change) of intensity in the horizontal and vertical directions.
+
+How it works:
+
+Apply Sobel kernels (one for horizontal, one for vertical) to the image.
+
+Calculate the gradient magnitude from these two components.
+
+Regions with high gradient magnitude correspond to edges.
+
+Example:
+When applied to an image of coins, the edges of each coin become highlighted, showing the boundaries clearly in both horizontal and vertical directions.
