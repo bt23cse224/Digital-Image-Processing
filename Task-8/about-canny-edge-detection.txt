@@ -1,0 +1,19 @@
+Canny Edge Detection
+
+What is Canny:
+Canny edge detection is a multi-step, more advanced method that detects edges with high accuracy while reducing noise.
+
+How it works:
+
+Noise reduction: Apply Gaussian filter to smooth the image.
+
+Gradient computation: Calculate intensity gradients (like Sobel).
+
+Non-maximum suppression: Thin out edges by keeping only local maxima in gradient direction.
+
+Double thresholding: Classify edges as strong, weak, or non-edges based on gradient magnitude.
+
+Edge tracking: Connect weak edges to strong edges if they are linked.
+
+Example:
+When applied to a coin image, the Canny detector produces thin, clean outlines of each coin, with minimal noise and well-defined boundaries.
